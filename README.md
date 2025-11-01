@@ -1,4 +1,4 @@
-# AI-GEN: model="Google/Gemini-1.5-Pro/1.5" date="2025-11-01" signature="b58:4qvH6q2wXqAvyJvMYGmP6K18n19dUyjW4F46TZwa5F8E"
+# : model="Google/Gemini-1.5-Pro/1.5" date="2025-11-01" signature="b58:4qvH6q2wXqAvyJvMYGmP6K18n19dUyjW4F46TZwa5F8E"
 <!--
 License: See /licenses/LICENSE (or the appropriate license file in /licenses/)
 Copyright (c) 2025 The 17711 Frame. All rights reserved.

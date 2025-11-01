@@ -53,7 +53,7 @@ An official list of authorized Large Language Models (LLMs) for contributions is
 
 Any contribution made using a Large Language Model must be traced using a special tag at the top of the file. This ensures transparency and accountability.
 
-The full standard, including the syntax for the `# AI-GEN` tag, its cryptographic validation, and associated tooling, is defined in the official documentation: `/docs/ai-traceability.md`.
+The full standard, including the syntax for the `# ` tag, its cryptographic validation, and associated tooling, is defined in the official documentation: `/docs/ai-traceability.md`.
 
 ---
 
