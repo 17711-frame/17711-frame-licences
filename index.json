@@ -1,0 +1,12 @@
+{
+  "licenses": [
+    {
+      "id": "F17711-GREOL",
+      "latest": "0.1.0",
+      "versions": [
+        "0.1.0"
+      ],
+      "url": "https://example.org/licenses/F17711-GREOL/"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+# ------------------------------------
+# Python bytecode / build cache
+# ------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Compiled wheels / tmp build files
+dist/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Poetry / venv
+.venv/
+venv/
+.env/
+.poetry/
+
+# Coverage & test
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# System / IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temporary / CI scratch
+tmp/
+*.tmp
+
+# Local hook/script clones done by CI
+.ci-hooks/
+.ci-scripts/
+
+# ------------------------------------
+# ✅ LICENSES BUNDLE SHOULD BE TRACKED
+# ------------------------------------
+# keep third-party bundle and directory tracked
+!build/
+!build/licenses/
+!build/licenses/**
+!THIRD_PARTY_LICENSES.txt
+
+# ignore everything else in build except licenses
+build/*
+!build/licenses/
+!build/licenses/**
+

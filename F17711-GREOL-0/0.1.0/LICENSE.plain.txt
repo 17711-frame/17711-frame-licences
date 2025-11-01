@@ -1,0 +1,35 @@
+F17711-GREOL-0 — Golden Ratio Escargot Open Licence
+Version 0.1.0 — Based on CC-BY-SA 4.0
+
+This work is licensed under F17711-GREOL-0 with the CC-BY-SA-4.0 legal base.
+
+Rights: attribution, share-alike, commercial and non-commercial use.
+
+Duties: respect human rights, equity, collective and shared progress, non-exclusion, future generations and transmission, safe planet, privacy, ensure institutional transparency, uphold right of contract,
+decentralize, practice frugality, sustainability, and minimizing energy consumption, fairness, and community benefit.
+
+No proprietary enclosure of this work or its direct derivatives is allowed.
+
+Use of this work to support any form of slavery, by humans, machines, or industries is strictly forbidden.
+
+Use of this work to harm the planet or future generations is strictly forbidden.
+
+Governance by 🐌 The 17711 Frame Foundation; future versions may not introduce proprietary terms.
+
+This license references the Manifesto of 🐌 The 17711 Frame (versioned).
+
+When distributing the work or its derivatives, an AI Manifest must be included, detailing the date of AI interaction (ISO 8601), the use of generative AI, LLM model (optional), and whether it was human-reviewed, tested, or corrected. It is recommended to use a separate file named `AI_MANIFEST.md` for this purpose.
+
+🐌 The 17711 Frame founders/creators are grouped under 🐌 The 17711 Foundation.
+
+For more information, visit: https://frame.17711.eu
+
+The governance of 🐌 The 17711 Frame will be carried out through the issuance of tokens on a popular blockchain, and this process is currently underway.
+
+---
+
+Lexicon:
+- 🐌 The 17711 Frame: The overarching project and ecosystem.
+- 🐌 The 17711 Foundation: The entity grouping the founders/creators of 🐌 The 17711 Frame.
+- Funders: Individuals or entities providing financial support to 🐌 The 17711 Frame.
+- Tokens: Digital assets representing governance rights or participation in 🐌 The 17711 Frame's ecosystem.

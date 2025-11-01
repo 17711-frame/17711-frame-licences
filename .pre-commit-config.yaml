@@ -1,0 +1,29 @@
+# License: See /licenses/LICENSE (or the appropriate license file in /licenses/)
+# Copyright (c) 2025 The 17711 Frame Foundation. All rights reserved.
+# This document’s terms, definitions, and permitted uses are governed by the license referenced above.
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: local
+    hooks:
+      - id: verify-changelog
+        name: Verify CHANGELOG version section
+        entry: python scripts/verify_changelog.py
+        language: system
+        pass_filenames: false
+      - id: build-dist
+        name: Build dist package
+        entry: python scripts/build_dist.py --root ./licenses --license-id F17711-GREOL --version 0.1.0 --outdir ./dist
+        language: system
+        pass_filenames: false
+      - id: verify-dist
+        name: Verify dist manifest
+        entry: python scripts/verify_dist.py --manifest ./licenses/F17711-GREOL/0.1.0/MANIFEST.json
+        language: system
+        pass_filenames: false
+

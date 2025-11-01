@@ -1,0 +1,2 @@
+SPDX-License-Identifier: LicenseRef-F17711-GREOL
+License-Text: See licenses/F17711-GREOL/0.1.0/LICENSE.plain.txt

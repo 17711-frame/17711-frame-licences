@@ -1,0 +1,37 @@
+# License: See /licenses/LICENSE (or the appropriate license file in /licenses/)
+# Copyright (c) 2025 The 17711 Frame Foundation. All rights reserved.
+# This document’s terms, definitions, and permitted uses are governed by the license referenced above.
+name: Licenses Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_comment:
+        description: "Mandatory comment (used for tag & release body)"
+        required: true
+        type: string
+      force_merge_main:
+        description: "Force-push HEAD to main after success"
+        required: false
+        default: false
+        type: boolean
+      hooks_ref:
+        description: "hooks ref (branch/tag/SHA), default dev"
+        required: false
+        default: "dev"
+        type: string
+
+jobs:
+  release:
+    uses: 17711-frame/17711-frame-factory-hooks/.github/workflows/reusable-release.yml@dev
+    with:
+      target:           "licenses"                 
+      deploy_env:       "dev"                      
+      release_comment:  ${{ inputs.release_comment }}
+      force_merge_main: ${{ inputs.force_merge_main }}
+      hooks_repo:       "17711-frame/17711-frame-factory-hooks"
+      hooks_ref:        ${{ inputs.hooks_ref }}
+      scripts_repo:     "17711-frame/17711-frame-factory-hooks"
+      scripts_ref:      ${{ inputs.hooks_ref }}
+      python_versions:  '["3.12","3.13","3.14"]'   
+      pypi_publish:     false                      
