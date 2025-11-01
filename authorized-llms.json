@@ -1,55 +1,305 @@
 {
   "version": "0.1.0",
   "authorized_llms": [
-    "OpenAI/GPT-4/4.0",
-    "OpenAI/GPT-3.5-Turbo/3.5",
-    "Google/Gemini-1.5-Pro/1.5",
-    "Google/Gemini-1.0-Pro/1.0",
-    "Anthropic/Claude-3-Opus/3.0",
-    "Anthropic/Claude-3-Sonnet/3.0",
-    "Anthropic/Claude-3-Haiku/3.0",
-    "Meta/Llama-3-70B/3.0",
-    "Meta/Llama-3-8B/3.0",
-    "MistralAI/Mistral-Large/1.0",
-    "MistralAI/Mistral-Medium/1.0",
-    "MistralAI/Mistral-Small/1.0",
-    "MistralAI/Mixtral-8x7B/1.0",
-    "Cohere/Command-R+/1.0",
-    "Cohere/Command-R/1.0",
-    "OpenAI/DALL-E-3/3.0",
-    "Midjourney/Midjourney-v6/6.0",
-    "StabilityAI/Stable-Diffusion-3/3.0",
-    "Microsoft/Phi-3-mini/3.0",
-    "Microsoft/Phi-3-medium/3.0",
-    "Google/Gemma-7B/1.0",
-    "Google/Gemma-2B/1.0",
-    "WizardLM/WizardLM-2-8x22B/2.0",
-    "WizardLM/WizardLM-2-7B/2.0",
-    "Meta/CodeLlama-70B/1.0",
-    "Meta/CodeLlama-34B/1.0",
-    "Meta/CodeLlama-13B/1.0",
-    "Meta/CodeLlama-7B/1.0",
-    "DeepSeek/DeepSeek-Coder-V2/2.0",
-    "DeepSeek/DeepSeek-LLM-67B/1.0",
-    "Upstage/Solar-10.7B/1.0",
-    "Alibaba/Qwen1.5-72B/1.5",
-    "Alibaba/Qwen1.5-7B/1.5",
-    "AI21-Labs/Jurassic-2-Ultra/2.0",
-    "AI21-Labs/Jurassic-2-Mid/2.0",
-    "Amazon/Titan-Text-Express-v1/1.0",
-    "Amazon/Titan-Text-Lite-v1/1.0",
-    "AI21-Labs/Jamba-Instruct/1.0",
-    "Databricks/DBRX-Instruct/1.0",
-    "TII/Falcon-180B/1.0",
-    "MosaicML/MPT-30B/1.0",
-    "LMSYS/Vicuna-33B/1.3",
-    "Stanford/Alpaca-7B/1.0",
-    "Databricks/Dolly-v2-12b/2.0",
-    "BigScience/Bloom-176B/1.0",
-    "Google/PaLM-2/2.0",
-    "Baidu/ERNIE-4.0/4.0",
-    "Baidu/ERNIE-3.5/3.5",
-    "Cohere/Cohere-Command/1.0",
-    "OTHER/OTHER/OTHER"
+    {
+      "editor": "OpenAI",
+      "model": "GPT-4",
+      "version": "4.0",
+      "date": "2023-03-14"
+    },
+    {
+      "editor": "OpenAI",
+      "model": "GPT-3.5-Turbo",
+      "version": "3.5",
+      "date": "2023-03-01"
+    },
+    {
+      "editor": "Google",
+      "model": "Gemini-1.5-Pro",
+      "version": "1.5",
+      "date": "2024-05-23"
+    },
+    {
+      "editor": "Google",
+      "model": "Gemini-1.0-Pro",
+      "version": "1.0",
+      "date": "2023-12-06"
+    },
+    {
+      "editor": "Anthropic",
+      "model": "Claude-3-Opus",
+      "version": "3.0",
+      "date": "2024-03-04"
+    },
+    {
+      "editor": "Anthropic",
+      "model": "Claude-3-Sonnet",
+      "version": "3.0",
+      "date": "2024-03-01"
+    },
+    {
+      "editor": "Anthropic",
+      "model": "Claude-3-Haiku",
+      "version": "3.0",
+      "date": "2024-03-13"
+    },
+    {
+      "editor": "Meta",
+      "model": "Llama-3-70B",
+      "version": "3.0",
+      "date": "2024-04-18"
+    },
+    {
+      "editor": "Meta",
+      "model": "Llama-3-8B",
+      "version": "3.0",
+      "date": "2024-04-18"
+    },
+    {
+      "editor": "MistralAI",
+      "model": "Mistral-Large",
+      "version": "1.0",
+      "date": "2024-02-26"
+    },
+    {
+      "editor": "MistralAI",
+      "model": "Mistral-Medium",
+      "version": "1.0",
+      "date": "2025-05-07"
+    },
+    {
+      "editor": "MistralAI",
+      "model": "Mistral-Small",
+      "version": "1.0",
+      "date": "2025-01-30"
+    },
+    {
+      "editor": "MistralAI",
+      "model": "Mixtral-8x7B",
+      "version": "1.0",
+      "date": "2023-12-11"
+    },
+    {
+      "editor": "Cohere",
+      "model": "Command-R+",
+      "version": "1.0",
+      "date": "2024-04-04"
+    },
+    {
+      "editor": "Cohere",
+      "model": "Command-R",
+      "version": "1.0",
+      "date": "2024-03-01"
+    },
+    {
+      "editor": "OpenAI",
+      "model": "DALL-E-3",
+      "version": "3.0",
+      "date": "2023-10-01"
+    },
+    {
+      "editor": "Midjourney",
+      "model": "Midjourney-v6",
+      "version": "6.0",
+      "date": "2023-12-20"
+    },
+    {
+      "editor": "StabilityAI",
+      "model": "Stable-Diffusion-3",
+      "version": "3.0",
+      "date": "2024-06-12"
+    },
+    {
+      "editor": "Microsoft",
+      "model": "Phi-3-mini",
+      "version": "3.0",
+      "date": "2024-04-23"
+    },
+    {
+      "editor": "Microsoft",
+      "model": "Phi-3-medium",
+      "version": "3.0",
+      "date": "2024-05-21"
+    },
+    {
+      "editor": "Google",
+      "model": "Gemma-7B",
+      "version": "1.0",
+      "date": "2024-02-21"
+    },
+    {
+      "editor": "Google",
+      "model": "Gemma-2B",
+      "version": "1.0",
+      "date": "2024-02-21"
+    },
+    {
+      "editor": "WizardLM",
+      "model": "WizardLM-2-8x22B",
+      "version": "2.0",
+      "date": "2024-04-15"
+    },
+    {
+      "editor": "WizardLM",
+      "model": "WizardLM-2-7B",
+      "version": "2.0",
+      "date": "2024-04-15"
+    },
+    {
+      "editor": "Meta",
+      "model": "CodeLlama-70B",
+      "version": "1.0",
+      "date": "2024-01-29"
+    },
+    {
+      "editor": "Meta",
+      "model": "CodeLlama-34B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Meta",
+      "model": "CodeLlama-13B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Meta",
+      "model": "CodeLlama-7B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "DeepSeek",
+      "model": "DeepSeek-Coder-V2",
+      "version": "2.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "DeepSeek",
+      "model": "DeepSeek-LLM-67B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Upstage",
+      "model": "Solar-10.7B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Alibaba",
+      "model": "Qwen1.5-72B",
+      "version": "1.5",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Alibaba",
+      "model": "Qwen1.5-7B",
+      "version": "1.5",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "AI21-Labs",
+      "model": "Jurassic-2-Ultra",
+      "version": "2.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "AI21-Labs",
+      "model": "Jurassic-2-Mid",
+      "version": "2.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Amazon",
+      "model": "Titan-Text-Express-v1",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Amazon",
+      "model": "Titan-Text-Lite-v1",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "AI21-Labs",
+      "model": "Jamba-Instruct",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Databricks",
+      "model": "DBRX-Instruct",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "TII",
+      "model": "Falcon-180B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "MosaicML",
+      "model": "MPT-30B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "LMSYS",
+      "model": "Vicuna-33B",
+      "version": "1.3",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Stanford",
+      "model": "Alpaca-7B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Databricks",
+      "model": "Dolly-v2-12b",
+      "version": "2.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "BigScience",
+      "model": "Bloom-176B",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Google",
+      "model": "PaLM-2",
+      "version": "2.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Baidu",
+      "model": "ERNIE-4.0",
+      "version": "4.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Baidu",
+      "model": "ERNIE-3.5",
+      "version": "3.5",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "Cohere",
+      "model": "Cohere-Command",
+      "version": "1.0",
+      "date": "2025-11-01"
+    },
+    {
+      "editor": "OTHER",
+      "model": "OTHER",
+      "version": "OTHER",
+      "date": "2025-11-01"
+    }
   ]
 }
