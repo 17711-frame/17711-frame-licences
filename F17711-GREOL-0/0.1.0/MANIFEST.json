@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "created_at": "2025-11-01T00:00:00Z",
   "artifacts": {
-    "LICENSE.md": "sha256-49f5dc4a20c1dcfbbdb304805946783643cfc00f2cf3cd9b49c91d995181c86b",
-    "LICENSE.plain.txt": "sha256-7543e99c7e1bdf77b7e130410062a1ef0bba7cafc140b7d92e41aa49b48a85d9",
-    "SPDX-METADATA.yaml": "sha256-ef19704f4eff39a8057da3edefa43cf1107693727577cfdb4646ce62c6a93ade",
+    "LICENSE.md": "sha256-5e028acb618619c4784122584af8cb0fe9fd2e3b561c34e3f7cbc06fefbb99bc",
+    "LICENSE.plain.txt": "sha256-4784563deb9c7f5e56eee3d11a1fd8139a3b976c0a6f8130149ef795f5fa4bf9",
+    "SPDX-METADATA.yaml": "sha256-c3fa36533d9f57680b54135d68dd1b8cc73c97787b7ec340353cbe357ea94e89",
     "LICENSE.spdx.txt": "sha256-3755035fc2bf6e5d22da574971ec6f8097a64dcf7a9e3ed437ebb285d020999a",
-    "i18n/en-US.md": "sha256-d8b619349c03c3428a32ba6ac5d24c68f8f53797a29b6630b890a4d4af12cec3",
-    "i18n/fr-FR.md": "sha256-af73fb923795a394348a8f22125a2d86d3130b67e77e159c80926da0ef648e29"
+    "i18n/en-US.md": "sha256-6b8f50308b588abbe13eae0c012e01374f6919ca07f3b9f210df5fe065038db4"
   },
   "signatures": {
     "foundation_gpg": "UNSIGNED-DRAFT"
